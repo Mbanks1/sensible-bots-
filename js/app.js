@@ -5,27 +5,28 @@
 const generator = document.querySelector('#bot-btn');
 const adviceTxt = document.querySelector('#advice');
 const botImg = document.querySelector('#bot-img');
-const drinkTxt = document.querySelector('#drinks');
+
+//----------drinks 
+const drinkTxt1 = document.querySelector('#drinks1');
+const drinkTxt2 = document.querySelector('#drinks2');
+const drinkTxt3 = document.querySelector('#drinks3');
+const drinkTxt4 = document.querySelector('#drinks4');
+const drinkTxt5 = document.querySelector('#drinks5');
+const drinkTxt6 = document.querySelector('#drinks6');
+const drinkTxt7 = document.querySelector('#drinks7');
+const drinkTxt8 = document.querySelector('#drinks8');
+//------------
+
+
 const userInput = document.querySelector('#text')
 
 
-generator.addEventListener('click', getBot);
+//generator.addEventListener('click', getBot);
 generator.addEventListener('click', getAdvice);
 generator.addEventListener('click', getDrink);
 
 
 
-/*
-async function getBot() {
-    const botData = await fetch('https://robohash.org/.png', {
-        headers: {
-            'Accept': 'application/json'
-        }
-    });
-    
-
-};
-*/
 
 
 
@@ -57,9 +58,18 @@ async function getDrink() {
    });
     const drinkObj = await drinkData.json();
   
-    drinkTxt.innerHTML = drinkObj.drinks[0].strInstructions
+    drinkTxt1.innerHTML = drinkObj.drinks[0].strDrink;
+    drinkTxt2.innerHTML = drinkObj.drinks[0].strGlass;
+    drinkTxt3.innerHTML = drinkObj.drinks[0].strIngredient1;
+    drinkTxt4.innerHTML = drinkObj.drinks[0].strIngredient2;
+    drinkTxt5.innerHTML = drinkObj.drinks[0].strIngredient3;
+    drinkTxt6.innerHTML = drinkObj.drinks[0].strIngredient4;
+    drinkTxt7.innerHTML = drinkObj.drinks[0].strIngredient5;
+    drinkTxt8.innerHTML = drinkObj.drinks[0].strInstructions;
+}
    
-
-   }
  
- //   strGlass  strIngredient1 strInstructions strInstructionsDE strMeasure1
+
+
+
+
