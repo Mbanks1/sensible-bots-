@@ -1,12 +1,15 @@
 //async fetch to api ---> create async 'catchBot' function to fetch and add bot in img html div 
-//within that function define a response variable with await - fetch - for the info
+//within that function define a response variable with await - fetch - for the data
 // add an event listener to the bot button that renders this entire function onclick
 
 const generator = document.querySelector('#bot-btn');
 const adviceTxt = document.querySelector('#advice');
-const botImg = document.querySelector('#bot-img');
+const botImg = document.querySelector('#changeBot');
+const userInput = document.querySelector('#text')
 
-//----------drinks 
+
+
+//----------drinks-------------
 const drinkTxt1 = document.querySelector('#drinks1');
 const drinkTxt2 = document.querySelector('#drinks2');
 const drinkTxt3 = document.querySelector('#drinks3');
@@ -15,16 +18,20 @@ const drinkTxt5 = document.querySelector('#drinks5');
 const drinkTxt6 = document.querySelector('#drinks6');
 const drinkTxt7 = document.querySelector('#drinks7');
 const drinkTxt8 = document.querySelector('#drinks8');
-//------------
+//---------drinks--------------
 
-
-const userInput = document.querySelector('#text')
 
 
 //generator.addEventListener('click', getBot);
 generator.addEventListener('click', getAdvice);
 generator.addEventListener('click', getDrink);
 
+
+
+function getBot() {
+
+
+}
 
 
 
@@ -69,6 +76,14 @@ async function getDrink() {
 }
    
  
+
+
+
+
+
+
+
+
 
 
 
