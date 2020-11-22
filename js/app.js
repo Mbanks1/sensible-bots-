@@ -4,12 +4,12 @@
 
 const generator = document.querySelector('#bot-btn');
 const adviceTxt = document.querySelector('#advice');
-const botImg = document.querySelector('#changeBot');
-//const userInput = document.querySelector('#text')
+let botImg = document.querySelector('#changeBot');
+let userInput = document.querySelector('#text');
 
 
 
-//----------drinks-------------
+
 const drinkTxt1 = document.querySelector('#drinks1');
 const drinkTxt2 = document.querySelector('#drinks2');
 const drinkTxt3 = document.querySelector('#drinks3');
@@ -22,18 +22,19 @@ const drinkTxt8 = document.querySelector('#drinks8');
 
 
 
-//generator.addEventListener('click', getBot);
+generator.addEventListener('click', getBot);
 generator.addEventListener('click', getAdvice);
 generator.addEventListener('click', getDrink);
 
+//
 
 
-//function getBot() {
-// take userInput text append to end of img URL 
-// 
 
-
-//}
+function getBot() {
+    userInput + userInput.value
+    return  botImg 
+ 
+}
 
 
 
