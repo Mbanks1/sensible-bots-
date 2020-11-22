@@ -1,5 +1,7 @@
 html {
-    
+    display: grid;
+  
+
     box-sizing: border-box;
     padding: 50px;
     }
@@ -44,10 +46,12 @@ img {
  max-width: 100%;
     
 }
-button {
-    
 
-    
-}
 .img-fluid { max-width: 100%;
+}
+
+button {
+  flex-direction: column;
+  align-items: center;
+  
 }

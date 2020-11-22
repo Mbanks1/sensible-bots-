@@ -5,7 +5,7 @@
 const generator = document.querySelector('#bot-btn');
 const adviceTxt = document.querySelector('#advice');
 const botImg = document.querySelector('#changeBot');
-const userInput = document.querySelector('#text')
+//const userInput = document.querySelector('#text')
 
 
 
@@ -28,10 +28,12 @@ generator.addEventListener('click', getDrink);
 
 
 
-function getBot() {
+//function getBot() {
+// take userInput text append to end of img URL 
+// 
 
 
-}
+//}
 
 
 
