@@ -5,7 +5,7 @@ api web app
 
 
 # DRINK - BOTS !!! #
-## Mix up your cocktail palet with drink bots and recieve some useful advice while doing so! A cocktail recipe randomizer, with some delightful ideas! 
+## Mix up your cocktail palett with 'Drink-Bots' and recieve some useful advice while doing so! A cocktail recipe randomizer, with some delightful ideas! 
 
 ### Here is my wireframe. As you will see, my finished product is somewhat different. Before I taught my bots to be master mixologist, I only planned on them offering sensible advice
 
@@ -29,10 +29,12 @@ api web app
 #### Technologies Used 
    1. HTML
    2. CSS
-   3. JavaScript
-   4. Advice API
-   5. Cocktail API
-   6. Bot API
+   3. Bootstrap
+   4. JavaScript
+   5. Advice API
+   6. Cocktail API
+   7. Bot API
+   
 
 
 
