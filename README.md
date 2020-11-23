@@ -1,7 +1,7 @@
 # sensible-bots-
 api web app
 
-![Psuedo + wireframe](https://imgur.com/PaqAafW)
+![Psuedo + wireframe](https://imgur.com/PaqAafW.png)
 
 
 ### DRINK - BOTS !!! ###
