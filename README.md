@@ -7,7 +7,8 @@ api web app
 # DRINK - BOTS !!! #
 ## Mix up your cocktail palet with drink bots and recieve some useful advice while doing so! A cocktail recipe randomizer, with some delightful ideas! 
 
-### here is my wireframe. As you will see the finished product is quite different. Before I taught my bots to be master mixologist, all they provided was some sensible advice. 
+### Here is my wireframe. As you will see, my finished product is somewhat different. Before I taught my bots to be master mixologist, I only planned on them offering sensible advice
+
 ![Psuedo + wireframe](https://imgur.com/PaqAafW.png)
 
 ### drink bots is fun tool that makes itself useful by providing creative drink ideas. In order to interact with Drink-Bots, Enter how you are feeling in the input feild and drink bots will generate a random cocktail recipe that also comes with a little advice ! 
