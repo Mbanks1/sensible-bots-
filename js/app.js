@@ -22,21 +22,20 @@ const drinkTxt8 = document.querySelector('#drinks8');
 
 
 
-generator.addEventListener('click', getBot);
+//generator.addEventListener('click', getBot);
 generator.addEventListener('click', getAdvice);
 generator.addEventListener('click', getDrink);
 
-//
 
 
 
-function getBot() {
-    userInput + userInput.value
-    return  botImg 
- 
+const api = "https://robohash.org/.png."
+const newBot = new URLSearchParams(api)
+
+for (const [key, value] of newBot) {
+    console.log(`${key} => ${value}`)
 }
-
-
+console.log(api.toString())
 
 
 
