@@ -4,9 +4,10 @@
 
 const generator = document.querySelector('#bot-btn');
 const adviceTxt = document.querySelector('#advice');
-let botImg = document.querySelector('#changeBot');
-let userInput = document.querySelector('#text');
 
+let botImg = document.querySelector('#changeBot');
+let userInput = document.getElementById('text');
+const container = document.getElementById('container')
 
 
 
@@ -22,20 +23,27 @@ const drinkTxt8 = document.querySelector('#drinks8');
 
 
 
-//generator.addEventListener('click', getBot);
+generator.addEventListener('click', getBot);
 generator.addEventListener('click', getAdvice);
 generator.addEventListener('click', getDrink);
 
 
 
 
-const api = "https://robohash.org/.png."
-const newBot = new URLSearchParams(api)
 
-for (const [key, value] of newBot) {
-    console.log(`${key} => ${value}`)
+
+function getBot(){
+    let input = userInput.value 
+    console.log(input)
+    botImg = document.createElement('img')
+    botImg.src = `https://robohash.org/.png.${input}?bgset=bg1`
+    container.appendChild(botImg)   
+
+
+   
+    
+
 }
-console.log(api.toString())
 
 
 
@@ -50,7 +58,6 @@ async function getAdvice() {
         'Accept': 'application/json'
     }
     });
-    console.log(adviceData);
     const adviceObj = await adviceData.json();
     adviceTxt.innerHTML = adviceObj.slip.advice 
 }
