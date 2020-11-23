@@ -24,7 +24,19 @@ api web app
    6. Bot API
 
 
-#### Ins
+## Planned enhancements:
+1. create a more fluid and responsive layout
+2. implement keydown feature so instead of clicking mouse, user can just hit enter! 
+3. add drink sound effects
+4. add lofty bar music 
+5. add function that displays drink instructions in an interactive reel 
+6. dark mode? stay tuned... 
+
+
+
+
+
+
 
 
 
