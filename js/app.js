@@ -5,12 +5,12 @@
 const generator = document.querySelector('#bot-btn');
 const adviceTxt = document.querySelector('#advice');
 
-let botImg = document.querySelector('#changeBot');
+let botImg;
 let userInput = document.getElementById('text');
 const container = document.getElementById('container')
 
 
-
+//-----------------drinks---------------------------
 const drinkTxt1 = document.querySelector('#drinks1');
 const drinkTxt2 = document.querySelector('#drinks2');
 const drinkTxt3 = document.querySelector('#drinks3');
@@ -19,7 +19,7 @@ const drinkTxt5 = document.querySelector('#drinks5');
 const drinkTxt6 = document.querySelector('#drinks6');
 const drinkTxt7 = document.querySelector('#drinks7');
 const drinkTxt8 = document.querySelector('#drinks8');
-//---------drinks--------------
+//-------------------drinks--------------------------
 
 
 
@@ -33,19 +33,15 @@ generator.addEventListener('click', getDrink);
 
 
 function getBot(){
+    container.innerHTML = '';
     let input = userInput.value 
-    console.log(input)
     botImg = document.createElement('img')
     botImg.src = `https://robohash.org/.png.${input}?bgset=bg1`
-    container.appendChild(botImg)   
+    container.appendChild(botImg)
 
+    };
 
-   
-    
-
-}
-
-
+ 
 
 
 
